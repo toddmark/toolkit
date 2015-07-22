@@ -1,12 +1,16 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
-	"font_size": 13,
-	"highlight_line": true,
-	"tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "default_line_ending": "unix",
+  "color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
+  "font_size": 13,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+  ],
+  "tab_size": 2,
   "show_encoding": true,
-	"ignored_packages":
-	[
-	]
+  "default_line_ending": "unix",
+  "translate_tabs_to_spaces": true,
+  "remove_trailing_whitespace_on_save": true,
+  "ensure_single_trailing_newline": true,
+  "ignore_whitespace_only_lines": false,
+  "ignore_whitespace_on_current_line": true
 }
