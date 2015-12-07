@@ -13,5 +13,6 @@
 	{ "keys": ["ctrl+shift+k"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+shift+j"], "command": "swap_line_down" },
 	{ "keys": ["ctrl+e"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} }
 ]
