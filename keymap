@@ -14,5 +14,21 @@
 	{ "keys": ["ctrl+shift+j"], "command": "swap_line_down" },
 	{ "keys": ["ctrl+e"], "command": "find_under_expand" },
 	{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} }
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab",
+    "context": [
+      {
+        "operand": "source.js", 
+        "operator": "equal", 
+        "match_all": true, 
+        "key": "selector"
+      },
+      {   
+        "key": "selection_empty", 
+        "operator": "equal", 
+        "operand": true,
+        "match_all": true 
+      }
+    ]
+  }
 ]
